@@ -1,0 +1,45 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package mad_ques_1;
+import java.util.ArrayList;
+import java.util.Scanner;
+/**
+ *
+ * @author Cra
+ */
+public class Interni implements Calculate {
+      private ArrayList<Developer> arrayD;
+    
+    public Interni()
+    {
+        System.out.println("HY INTERS");
+        arrayD=new ArrayList<Developer>();
+    }
+    
+    public void Health()
+    {
+      System.out.println("FREE HEALTH INSURANCE");
+    }
+    public void basicbenefits()
+    {
+        System.out.println("SOME BASIC BENEFITS");
+        
+    }
+     public void calculatepay()
+    {
+        System.out.println("ENTER PER DAY PAYMENT OF INTERNS ");
+        Scanner K1=new Scanner(System.in);
+        int y=K1.nextInt();
+        int z=y*30;
+        System.out.println("MONTHLY PAYMENT OF INTERNS : "+z);
+        Developer d=new Developer(); 
+      d.Health();
+      d.basicbenefits();
+      d.Devbenefit();
+      d.calculatepay();
+        
+    }
+}
