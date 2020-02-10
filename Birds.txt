@@ -1,0 +1,40 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package mad_ques_2;
+
+/**
+ *
+ * @author Cra
+ */
+public class Birds  extends Walk implements Creatures
+{
+    public Birds()
+   {
+       System.out.println("HY BIRDS!!!!!!");
+   }
+public void singsong()
+   {
+        System.out.println("song:  HYHYHYHY AHAHAHA");
+   }
+  public void makeNest()
+   {
+        System.out.println("NEST");
+   }
+  public static void fly()
+   {
+        System.out.println("FLY");
+   }
+    public void Breath()
+     {
+          System.out.println("BIRD IS BREATHING");
+     }
+   //@Override
+    public void Eatfood()
+     {
+          System.out.println("BIRD IS EATING FOOD");
+     }
+}
+
