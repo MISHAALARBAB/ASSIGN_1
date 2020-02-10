@@ -1,0 +1,33 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package mad_ques_2;
+
+/**
+ *
+ * @author Cra
+ */
+public class Dogs extends Walk implements Creatures 
+{
+   public Dogs()
+    {
+        System.out.println("HY DOGS!!!!!!!");
+    }
+
+   public void playDead()
+    {
+ System.out.println("DEADS");
+    }
+    public void Breath()
+     {
+          System.out.println("DOG IS BREATHING");
+     }
+   public  void Eatfood()
+     {
+          System.out.println("DOG IS EATING FOOD");
+     }
+
+}
+
