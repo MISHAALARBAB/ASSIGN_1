@@ -1,0 +1,32 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package mad_ques_2;
+
+/**
+ *
+ * @author Cra
+ */
+public class Rabbits  implements Creatures
+{
+  public  Rabbits()
+    {
+       System.out.println("HY RABBITS!!!!!!!");
+    }
+   public void hop()
+    {
+         System.out.println("HOP");
+    }
+   public void Breath()
+     {
+          System.out.println(" RABBIT IS BREATHING");
+     }
+    public void Eatfood()
+     {
+          System.out.println("RABBIT IS EATING FOOD");
+     }
+}
+
+
